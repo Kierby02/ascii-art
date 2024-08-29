@@ -1,5 +1,5 @@
-# import pyfiglet module 
-import pyfiglet 
+import pyfiglet
 
-result = pyfiglet.figlet_format("lakas mo boss!", font="slant") 
-print(result) 
+text = pyfiglet.print_figlet(text="Kierby",
+                             colors="green" , font="slant")
+print(text)
